@@ -28,7 +28,7 @@ ro.vendor.audio.crystal_talk.supported=true
 ro.vendor.audio.crystal_talk_record.2mic.supported=false
 ro.vendor.audio.crystal_talk_record.max_rate=16000
 ro.vendor.audio.crystal_talk_record.supported=false
-ro.vendor.audio.game_mic.supported
+ro.vendor.audio.game_mic.supported=true
 ro.vendor.audio.sdk.fluencetype=none
 ro.vendor.audio.sdk.ssr=false
 vendor.audio.adm.buffering.ms=2
@@ -242,7 +242,6 @@ persist.vendor.data.mode=concurrent
 persist.vendor.radio.adb_log_on=0
 persist.vendor.radio.aosp_usr_pref_sel=true
 persist.vendor.radio.apm_sim_not_pwdn=1
-persist.vendor.radio.atfwd.start=true
 persist.vendor.radio.custom_ecc=1
 persist.vendor.radio.enableadvancedscan=true
 persist.vendor.radio.fi_supported=0
@@ -264,7 +263,6 @@ ro.vendor.use_data_netmgrd=true
 # SOC
 ro.hardware.soc.manufacturer=qcom
 ro.soc.manufacturer=QTI
-ro.soc.model=SM8550
 
 # Surfaceflinger
 ro.surface_flinger.enable_frame_rate_override=true
@@ -294,9 +292,6 @@ vendor.usb.rmnet.inst.name=rmnet
 vendor.usb.rndis.func.name=gsi
 vendor.usb.use_ffs_mtp=1
 vendor.usb.use_gadget_hal=1
-
-# Wfd
-persist.sys.wfd.virtual=0
 
 # WiFi
 wifi.aware.interface=wifi-aware0
