@@ -120,6 +120,9 @@ PRODUCT_PACKAGES += \
     android.hardware.health-service.qti \
     android.hardware.health-service.qti_recovery
 
+# HWUI
+TARGET_USES_VULKAN := true
+
 # Init
 PRODUCT_PACKAGES += \
     fstab.qcom \
@@ -312,7 +315,7 @@ PRODUCT_PACKAGES += \
     extphonelib.xml \
     extphonelib_product.xml \
     MotoEuicc \
-    MotoNrEnabler \
+    MotoExtTelephony \
     ims-ext-common \
     ims_ext_common.xml \
     qti-telephony-hidl-wrapper \
